@@ -39,6 +39,9 @@ public class Calculator {
 	public static void masterfun1(int num){
 	      System.out.println("In master with "+num);
 	  }
+	public static void masterfun2(int num){
+	      System.out.println("In master2 with "+num);
+	  }
 
 
 
