@@ -18,15 +18,31 @@ public class Calculator {
 	public static void prod(int num1,int num2){
 	      System.out.println(num1*num2);
 	  }
+	public static void div(int num1,int num2){
+	      System.out.println(num1/num2);
+	  }
 
 	public static void mod(int num1,int num2){
 	      System.out.println(num1%num2);
 	  }
 
-
 	public static void square(int num){
 	      System.out.println(num*num);
 	  }
+	public static void cube(int num){
+	      System.out.println(num*num*num);
+	  }
+	
+	public static void br1fun1(int num){
+	      System.out.println("In br1 with "+num);
+	  }
+	public static void masterfun1(int num){
+	      System.out.println("In master with "+num);
+	  }
+	public static void masterfun2(int num){
+	      System.out.println("In master2 with "+num);
+	  }
+
 
 
 }
